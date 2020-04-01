@@ -27,10 +27,10 @@ class CashRegister
     end
   end 
  
- def apply_discount
+ def apply_discount(price, discount)
    if @discount > 0
-       @discount = (price * discount)
-      @total -= @discount
+       discount = (price * discount)
+      @total -= discount
       return "After the discount, the total comes to $#{@total}."
     else
       return "There is no discount to apply."
