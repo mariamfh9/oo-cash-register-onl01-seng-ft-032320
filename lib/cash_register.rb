@@ -27,7 +27,8 @@ class CashRegister
       @title << title
     end
   end 
-    
+ 
+ 
   
   
 end
