@@ -37,9 +37,11 @@ class CashRegister
     end
  end 
  
- #def items
-   #@title
- #end 
+ def items
+   @title
+ end 
+ 
+ 
   
   
 end
