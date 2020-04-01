@@ -31,7 +31,7 @@ class CashRegister
    if @discount > 0
        discount = (price * discount)
       @total -= discount
-      return "After the discount, the total comes to $#{@total}."
+      return "After the discount, the total comes to $#{total}."
     else
       return "There is no discount to apply."
     end
